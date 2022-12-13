@@ -7,6 +7,8 @@ import Settings from './src/screens/Settings';
 import Home from './src/screens/Home';
 import { styled } from 'nativewind';
 import BottomTab from './src/components/BottomTab';
+import CalendarScreen from './src/screens/CalendarScreen';
+import CheckScreen from './src/screens/CheckScreen';
 
 const StyledText = styled(Text)
 const StyledView = styled(View)
@@ -17,7 +19,7 @@ export default function App() {
 // @ts-ignore
 
 <NavigationContainer>  
-  <Header Home={Home} Settings={Settings}/>
+  <BottomTab HomeScreen={Home} CalendarScreen={CalendarScreen} CheckScreen={CheckScreen} SettingsScreen={Settings}/>
 </NavigationContainer>
   
 
