@@ -3,7 +3,19 @@
 A mobile application that allows you to see your working hours!
 
 ## TODO
-
+ 
+- Add navbar header, bottom
+- Home
+   - Card with time this week
+- Calendar
+   - Build calendar
+- Settings
+   - Card with settings
+- Login
+   - First screen when user is not logged
+- Check Button
+   - Screen for check in/out
+  
 
 
 ## User Story
