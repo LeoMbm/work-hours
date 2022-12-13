@@ -12,7 +12,7 @@ const Home = () => {
     <StyledView className='flex-1 p-4'>
 
 
-      <StyledText className='text-gray-800 font-bold text-base mb-2'>This Week</StyledText>
+      <StyledText className='text-gray-800 font-bold text-xl mb-2'>This Week</StyledText>
       <CardHome />
       <CardHome />
       <CardHome />
